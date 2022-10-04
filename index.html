@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <title>Jogos em Javascript</title>
     <link rel="shortcut icon" href="./favicon (1).jpeg" type="image/x-icon" />
-  </head>
+    <link rel="stylesheet" href="./blog_kenzie.css">
+    </head>
 
   <body>
     <header>
@@ -14,46 +15,46 @@
       />
 
       <nav>
-        <ul>
+        <ul class="navegacaoul">
           <div>
-            <li>
-              <a href="">Quem Somos</a>
+            <li class="navegacao">
+              <a class="navnome" href="">Quem Somos</a>
             </li>
           </div>
 
           <div>
-            <li>
-              <a href="">Formação</a>
+            <li class="navegacao">
+              <a class="navnome" href="">Formação</a>
             </li>
           </div>
 
           <div>
-            <li>
-              <a href="">Pagamento</a>
+            <li class="navegacao">
+              <a class="navnome"  href="">Pagamento</a>
             </li>
           </div>
 
           <div>
-            <li>
-              <a href="">Para empresas</a>
+            <li class="navegacao">
+              <a class="navnome"  href="">Para empresas</a>
             </li>
           </div>
 
           <div>
-            <li>
-              <a href="">Dúvidas</a>
+            <li class="navegacao">
+              <a class="navnome" href="">Dúvidas</a>
             </li>
           </div>
 
           <div>
-            <li>
-              <a href="">Blog</a>
+            <li class="navegacao">
+              <a class="navnome" href="">Blog</a>
             </li>
           </div>
 
           <div>
-            <li>
-              <a href="">Trabalhe conosco</a>
+            <li class="navegacao">
+              <a class="navnome" href="">Trabalhe conosco</a>
             </li>
           </div>
         </ul>
@@ -86,18 +87,21 @@
 
           <p>Neste artigo você aprenderá:</p>
 
-          <ul>
+          <div class="listajogos">
+            <ul>
             <li>8 jogos em JavaScript</li>
 
             <li>Engines de jogos em Javascript</li>
 
             <li>Como criar jogos em JavaScript</li>
           </ul>
+          </div>
+          
 
           <p>Escrito por: Ugo Roveda</p>
 
-          <span>
-            <a
+          <span class="navegacao">
+            <a class="navnome"
               href="https://kenzie.com.br/blog/jogos-em-javascript/"
               target="_blank"
               >Acessar Post</a
@@ -114,7 +118,7 @@
             Não só é possível, como muitos jogos são desenvolvidos em
             JavaScript. A linguagem JavaScript é capaz de criar funções
             interativas em documentos <strong><u>HTML.</u></strong
-            >Além disso, permite mais flexibilidade na criação de jogos, já que
+            > Além disso, permite mais flexibilidade na criação de jogos, já que
             integra recursos de página web.
           </p>
 
@@ -127,8 +131,8 @@
 
           <p>Escrito por: Ugo Roveda</p>
 
-          <span
-            ><a
+          <span class="navegacao"
+            ><a class="navnome"
               href="https://kenzie.com.br/blog/jogos-em-javascript/"
               target="_blank"
               >Acessar Post</a
@@ -160,8 +164,8 @@
 
           <p>Escrito por: Ugo Roveda</p>
 
-          <span
-            ><a
+          <span class="navegacao"
+            ><a class="navnome"
               href="https://kenzie.com.br/blog/jogos-em-javascript/"
               target="_blank"
               >Acessar Post</a
@@ -189,8 +193,8 @@
 
           <p>Escrito por: Ugo Roveda</p>
 
-          <span
-            ><a
+          <span class="navegacao"
+            ><a class="navnome"
               href="https://kenzie.com.br/blog/jogos-em-javascript/"
               target="_blank"
               >Acessar Post</a
@@ -206,16 +210,18 @@
           </legend>
           <p>Basta inserir o seu e-mail de preferência</p>
 
-          <label for="email">Email</label>
-          <input
+         <span class="spanform"><label for="email">Email</label></span> 
+         
+         <span class="spanform" > <input
             type="text"
             name="email"
             id="email"
             placeholder="Digite seu email aqui"
             required
-          />
+          /></span>
+         
 
-          <button>Receber newsletter</button>
+         <span class="spanform"><button>Receber newsletter</button></span> 
         </fieldset>
       </form>
     </main>
