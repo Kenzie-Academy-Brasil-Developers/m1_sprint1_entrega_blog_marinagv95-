@@ -88,3 +88,7 @@ button:hover{
 button:focus{
     border-color: green;
 }
+
+form{
+  background-color: rgba(185, 228, 239, 0.795);
+}
